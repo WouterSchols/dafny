@@ -68,7 +68,7 @@ namespace Microsoft.Dafny
     public CompilationTarget CompileTarget = CompilationTarget.Csharp;
     public bool CompileVerbose = true;
     public string DafnyPrintCompiledFile = null;
-    public string CoverageLegendFile = @"C:\Users\Wouter\Documents\test.txt";
+    public string CoverageLegendFile = @"..\test\bin\Debug\netcoreapp3.0\legend.txt";
     public bool ForceCompile = false;
     public bool RunAfterCompile = false;
     public int SpillTargetCode = 0;  // [0..4]
